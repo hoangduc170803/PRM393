@@ -69,10 +69,3 @@ flutter build apk --split-per-abi
 4. **Greedy JSON Extraction**: The model has been strictly prompted with greedy deterministic sampling to output *only* a valid JSON structure representing your receipt's metadata.
 5. **Storage**: Data is parsed and saved securely to your local SQLite Database.
 
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-## 📝 License
-
-This project is open-source and available under the [MIT License](LICENSE).
