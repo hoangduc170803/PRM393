@@ -68,15 +68,3 @@ flutter build apk --split-per-abi
 3. **Local Text Generation**: The text is passed into a highly quantized Llama model format (`.gguf`) running entirely within a separate isolate thread so the main UI never freezes.
 4. **Greedy JSON Extraction**: The model has been strictly prompted with greedy deterministic sampling to output *only* a valid JSON structure representing your receipt's metadata.
 5. **Storage**: Data is parsed and saved securely to your local SQLite Database.
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-## 📝 License
-
-This project is open-source and available under the [MIT License](LICENSE).
-Beta
-0 / 0
-used queries
-1
